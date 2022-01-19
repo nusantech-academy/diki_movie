@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+  <title>tampilan</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+    }
+
+    #header {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    #header {
+      background-color: rgb(245, 78, 0);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    #header h1 a {
+      float: left;
+      padding: 11px 0;
+      color: white;
+      text-decoration: none;
+
+    }
+
+    #header ul {
+      float: right;
+    }
+
+    .container {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .container:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    #header ul li {
+      display: inline-block;
+    }
+
+    #header ul li a {
+      display: inline-block;
+      padding: 20px 20px;
+      text-decoration: none;
+      color: white;
+    }
+
+    #header ul li a:hover {
+      background-color: white;
+      color: rgb(245, 78, 0);
+    }
+
+    #banner {
+      height: 90vh;
+      background-image: url("head.png");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 140%;
+    }
+
+    .kotak {
+      margin: 20px 20px;
+    }
+
+    .kotak h1 {
+      color: rgb(245, 78, 0);
+    }
+
+    .kotak p {
+      margin-top: 10px;
+      font-family: tahoma;
+    }
+
+    img {
+      height: 370px;
+      width: 250px;
+      border-radius: 15px;
+      margin-top: 25px;
+    }
+
+    div.box img:hover {
+      transform: translateY(-5%);
+      transition: 0.7s;
+    }
+
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #email {
+      display: flex;
+      margin-top: 10vh;
+    }
+
+    .gambar {
+      height: 50vh;
+      width: 50vw;
+    }
+
+    .dalem {
+      margin: auto;
+      color: rgb(245, 78, 0);
+      border: none;
+    }
+
+    div.gambar img {
+      margin: 0;
+      border-radius: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    #isi {
+      height: 4vh;
+      background: #ffffff;
+      border: 2px solid rgb(245, 78, 0);
+      box-sizing: border-box;
+      border-radius: 5px;
+      font-family: tahoma;
+    }
+
+    button {
+      height: 5vh;
+      width: 10vw;
+
+      color: white;
+      background-color: rgb(245, 78, 0);
+      border-color: rgb(245, 78, 0);
+      border-radius: 5px;
+      margin-left: 25vh;
+    }
+
+    #footer {
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      background-color: rgb(245, 78, 0);
+      color: white;
+      margin-top: 10vh;
+    }
+
+    @media (max-width: 500px) {
+      img {
+        height: 450px;
+        width: 450px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <h1>
+        <a href="tampilan.html">Movie App</a>
+      </h1>
+      <ul>
+        <li><a href="tampilan3.html">Best of The Week</a></li>
+        <li><a href="tampilan2.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="banner">
+    <h1>Welcome, Friends!</h1>
+  </div>
+  <div class="kotak">
+    <h1>About</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  <div class="kotak">
+    <h1>Best of the week</h1>
+    <div class="box">
+      <a href="crow.html"><img src="crow.jpg" alt="" /></a>
+      <a href="high.html"><img src="high.jpg" alt="" /></a>
+      <a href="shiritsu.html"><img src="shiritsu.jpg" alt="" /></a>
+      <a href="bad.html"><img src="bad.jpg" alt="" /></a>
+      <a href="thekingof.html"><img src="the.jpg" alt="" /></a>
+    </div>
+  </div>
+  <div class="kotak">
+    <h1>Action Movies</h1>
+    <div class="box">
+      <a href="young.html"><img src="young.jpg" alt="" /></a>
+      <a href="tokyo.html"><img src="tokyo.jpg" alt="" /></a>
+      <a href="Tsubasa.html"><img src="capt.jpg" alt="" /></a>
+      <a href="snake.html"><img src="snake.jpg" alt="" /></a>
+      <a href=".html"><img src="re4.jpg" alt="" /></a>
+      <a href="wom.html"><img src="wom.jpg" alt="" /></a>
+      <a href="larva.html"><img src="larva.jpg" alt="" /></a>
+      <a href="nobody.html"><img src="nobody.jpg" alt="" /></a>
+      <a href="kong.html"><img src="kong.jpeg" alt="" /></a>
+      <a href="morbius.html"><img src="morbius.jpg" alt="" /></a>
+    </div>
+  </div>
+  <div id="email">
+    <div class="gambar"><img src="bot.png" alt="" /></div>
+    <div class="dalem">
+      <h1>Halo!</h1>
+      <p>
+        BERI SARAN DAN MASUKKAN
+      </p>
+      <br />
+      <p id="isi" align="center">arpiginanjar123@gmail.com</p>
+      <br />
+      <button type="submit">Kirim Email</button>
+    </div>
+  </div>
+  <div id="footer">
+    <h5 align="center">Copyright @ Nusantech 2021</h5>
+  </div>
+</body>
+
+</html>

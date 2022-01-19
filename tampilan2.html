@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+      }
+      #header {
+        background-color: rgb(245, 78, 0);
+        position: sticky;
+        top: 0;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: white;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 95%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: rgb(245, 78, 0);
+      }
+      #header ul li a.active {
+        background-color: white;
+        color: rgb(245, 78, 0);
+      }
+      #profil{
+        display: flex;
+        height: 93vh;
+        justify-content: space-evenly;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        color: rgb(245, 78, 0);
+      }
+      img{
+          width: 50%;
+          height: 50%;
+      }
+      #footer {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: rgb(245, 78, 0);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>
+          <a href="tampilan.html">Movie App</a>
+        </h1>
+        <ul>
+          <li><a href="tampilan3.html">Best of The Week</a></li>
+          <li><a href="tampilan2.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="profil">
+        <img src="bot.png" alt="">
+      <div id="kartu">
+        <h1>Nama : Arpi Alpianur G</h1>
+        <h1>Kelas :XI RPL 1</h1>
+        <h1>WA : +62132132212</h1>
+        <h1>Email : arpiginanjar123@gmail.com</a></h1>
+      </div>
+    </div>
+    <div id="footer">
+        <h5>copyright @ Nusantech 2021</h5>
+    </div>
+  </body>
+</html>
